@@ -29,7 +29,8 @@ def lambda_handler(event, context):
         forward_to = 'alexshnup@gmail.com'       # The destination email
         forward_msg['From'] = forward_from
         forward_msg['To'] = forward_to
-        forward_msg['Subject'] = "Fwd: " + msg['Subject']
+        forward_source = record['ses']['mail']['source'] # The original sender
+        forward_msg['Subject'] = "Fwd: "+ forward_source + " " + msg['Subject']
         
         # Check if the message is multipart
         if msg.is_multipart():

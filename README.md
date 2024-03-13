@@ -2,7 +2,7 @@
 
 This project provides a serverless solution to automatically forward emails received on AWS Simple Email Service (SES) to a specified email address, using AWS Lambda and S3 for processing and storage. It's particularly useful for handling emails on a custom domain without setting up a full email server.
 
-Any email to any possible address on your domain will be redirected to the email address specified in Lambda in the form in which it was sent. You will receive a letter from the address to which it was sent. It is very convenient and does not require creating additional aliases and you can extend the message processing logic in Python.
+Any email to any possible address on your domain will be redirected to the email address specified in Lambda in the form in which it was sent. You will receive a letter from the address to which it was sent. The subject of the email will indicate the original sender. It is very convenient and does not require creating additional aliases and you can extend the message processing logic in Python.
 
 It is very important not to create a bucket in advance. It will need to be created when you create a rule for processing incoming messages in SES. Otherwise, you may receive an error when adding processing for saving emails to S3
 
