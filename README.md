@@ -52,6 +52,9 @@ For Lambda functions triggered by SES, the event object structure looks somethin
           "messageId": "example-id",
           "source": "sender@example.com",
           "timestamp": "example-timestamp"
+          "destination": [
+              "test@example.com"
+          ],
           // Other metadata fields...
         },
         "receipt": {
