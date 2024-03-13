@@ -12,7 +12,7 @@ You may be wondering why you need to save emails to S3 at all? It would be good,
 <img width="828" alt="Screenshot 2024-03-12 at 22 47 25" src="https://github.com/alexshnup/AWS-SES-Email-Forwarder/assets/4953963/baeb15a9-761d-42b1-b117-61ac1562260f">
 
 ### Add actions
-<img width="965" alt="Screenshot 2024-03-12 at 22 49 05" src="https://github.com/alexshnup/AWS-SES-Email-Forwarder/assets/4953963/66aedaf4-cdb1-4587-b598-47030e8e481d">
+<img width="961" alt="Screenshot 2024-03-13 at 13 36 45" src="https://github.com/alexshnup/AWS-SES-Email-Forwarder/assets/4953963/b98778e9-84ca-4546-9fc8-d53d386c6ff5">
 
 ## Prerequisites
 
