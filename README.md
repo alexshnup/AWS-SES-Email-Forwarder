@@ -8,10 +8,10 @@ It is very important not to create a bucket in advance. It will need to be creat
 
 You may be wondering why you need to save emails to S3 at all? It would be good, but unfortunately the contents of the letter do not come to the Lambda event, there is only metadata.
 
-Rule detail
+###Rule detail
 <img width="828" alt="Screenshot 2024-03-12 at 22 47 25" src="https://github.com/alexshnup/AWS-SES-Email-Forwarder/assets/4953963/baeb15a9-761d-42b1-b117-61ac1562260f">
 
-Add actions
+###Add actions
 <img width="965" alt="Screenshot 2024-03-12 at 22 49 05" src="https://github.com/alexshnup/AWS-SES-Email-Forwarder/assets/4953963/66aedaf4-cdb1-4587-b598-47030e8e481d">
 
 ## Prerequisites
