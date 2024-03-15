@@ -1,4 +1,4 @@
-# AWS SES Email Forwarder
+# AWS SES+Lambda Email Forwarder
 
 This project provides a serverless solution to automatically forward emails received on AWS Simple Email Service (SES) to a specified email address, using AWS Lambda and S3 for processing and storage. It's particularly useful for handling emails on a custom domain without setting up a full email server.
 
